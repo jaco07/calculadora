@@ -1,0 +1,108 @@
+/* font-family: 'League Spartan', sans-serif; */
+:root{
+    /* #### Backgrounds */
+
+--Very-dark-desaturated-blue : hsl(222, 26%, 31%);
+--Very-dark-desaturated-blue : hsl(223, 31%, 20%);
+--Very-dark-desaturated-blue : hsl(224, 36%, 15%);
+
+/* #### Keys */
+
+--Desaturated-dark-blue : hsl(225, 21%, 49%);
+--Desaturated-dark-blue : hsl(224, 28%, 35%);
+
+--Red : hsl(6, 63%, 50%);
+--Dark-red : hsl(6, 70%, 34%);
+
+--Light-grayish-orange: hsl(30, 25%, 89%);
+--Grayish-orange : hsl(28, 16%, 65%);
+
+/* #### Text */
+
+--Very-dark-grayish-blue: hsl(221, 14%, 31%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(222, 26%, 31%);
+    color:hsl(0, 0%, 100%) ;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 220vh;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+input{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 31px;
+    border-radius: 12px;
+    outline: hsl(223, 36%, 15%);
+    border: hsl(223, 36%, 15%);
+    justify-content: end;
+    display: flex;
+    text-align: end;
+    align-items: center;
+    width: 320px;
+    height: 95px;
+    background-color: hsl(224, 36%, 15%) ;
+    margin-top: 20px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.box-number button{
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 5px;
+    background-color: hsl(30, 25%, 89%) ;
+    height: 40px;
+    width: 65px;
+    font-size: 21px;
+}
+.box-number .box-1 > .del{
+    background-color: hsl(225, 21%, 49%) ;
+    color: hsl(0, 0%, 100%) ;
+}
+.box-number .box-5 > .igual{
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(0, 0%, 100%) ;
+}
+.box-number .box-5 > .reset{
+    background-color: hsl(225, 21%, 49%) ;
+    color: hsl(0, 0%, 100%) ;
+}
+.box-number{
+    
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color:  hsl(223, 31%, 20%) ;
+    height: 290px;
+    width: 320px;
+}
+
+.box-5 button{
+    border-radius: 5px;
+    height: 40px;
+    width: 133px;
+    font-size: 21px;
+}
